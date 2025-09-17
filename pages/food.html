@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Beverage - LifeStyleHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>LifeStyleHub</h1>
+                    <span class="tagline">Modern Living Made Simple</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fashion.html">Fashion & Accessories</a></li>
+                            <li><a href="beauty.html">Health & Beauty</a></li>
+                            <li><a href="home.html">Home & Garden</a></li>
+                            <li><a href="travel.html">Travel & Accommodation</a></li>
+                            <li><a href="finance.html">Finance & Insurance</a></li>
+                            <li><a href="food.html">Food & Beverage</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search articles...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="category-hero">
+            <div class="container">
+                <div class="category-hero-content">
+                    <h1>Food & Beverage</h1>
+                    <p>Culinary adventures, healthy eating guides, and product reviews for food enthusiasts</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-content">
+            <div class="container">
+                <div class="content-filter">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="articles">Articles</button>
+                        <button class="filter-btn" data-filter="products">Products</button>
+                    </div>
+                    <div class="sort-dropdown">
+                        <select class="sort-select">
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="popular">Most Popular</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="content-grid">
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Healthy Cooking">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>Meal Prep Mastery: Healthy Eating Made Simple</h3>
+                            <p>Transform your nutrition with these practical meal prep strategies that save time and promote healthy eating habits.</p>
+                            <div class="content-meta">
+                                <span class="content-date">July 18, 2025</span>
+                                <a href="../articles/meal-prep-mastery.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Kitchen Appliances">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Product Review</span>
+                            <h3>Best Air Fryers for Healthy Home Cooking</h3>
+                            <p>Discover top-rated air fryers that make healthy cooking convenient while delivering crispy, delicious results.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★★ 4.9/5</span>
+                                <a href="../products/air-fryers.html" class="read-more">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Coffee">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Product Guide</span>
+                            <h3>Premium Coffee Beans: From Bean to Cup</h3>
+                            <p>Explore the world of specialty coffee with our guide to selecting and brewing the perfect cup at home.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★☆ 4.6/5</span>
+                                <a href="../products/coffee-beans.html" class="read-more">Shop Coffee</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1453&q=80" alt="Mediterranean Diet">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>The Mediterranean Diet: A Complete Beginner's Guide</h3>
+                            <p>Discover the health benefits and delicious flavors of the Mediterranean diet with practical tips for implementation.</p>
+                            <div class="content-meta">
+                                <span class="content-date">June 25, 2025</span>
+                                <a href="../articles/mediterranean-diet.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1611143669185-af224c5e3252?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="Meal Kit Services">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Service Comparison</span>
+                            <h3>Best Meal Kit Delivery Services of 2025</h3>
+                            <p>Compare top meal kit services based on quality, variety, pricing, and convenience for busy lifestyles.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★★ 4.7/5</span>
+                                <a href="../products/meal-kits.html" class="read-more">Compare Services</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80" alt="Smoothies">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>Superfood Smoothies: 15 Nutrient-Packed Recipes</h3>
+                            <p>Boost your energy and health with these delicious superfood smoothie recipes perfect for any time of day.</p>
+                            <div class="content-meta">
+                                <span class="content-date">May 30, 2025</span>
+                                <a href="../articles/superfood-smoothies.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <button class="pagination-btn prev-btn" disabled>Previous</button>
+                    <div class="pagination-numbers">
+                        <button class="pagination-number active">1</button>
+                        <button class="pagination-number">2</button>
+                        <button class="pagination-number">3</button>
+                        <span class="pagination-dots">...</span>
+                        <button class="pagination-number">7</button>
+                    </div>
+                    <button class="pagination-btn next-btn">Next</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LifeStyleHub</h3>
+                    <p>Your guide to modern living with curated content across fashion, beauty, home, travel, finance, and food.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="fashion.html">Fashion & Accessories</a></li>
+                        <li><a href="beauty.html">Health & Beauty</a></li>
+                        <li><a href="home.html">Home & Garden</a></li>
+                        <li><a href="travel.html">Travel & Accommodation</a></li>
+                        <li><a href="finance.html">Finance & Insurance</a></li>
+                        <li><a href="food.html">Food & Beverage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> hello@lifestylehub.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LifeStyleHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Accommodation - LifeStyleHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>LifeStyleHub</h1>
+                    <span class="tagline">Modern Living Made Simple</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fashion.html">Fashion & Accessories</a></li>
+                            <li><a href="beauty.html">Health & Beauty</a></li>
+                            <li><a href="home.html">Home & Garden</a></li>
+                            <li><a href="travel.html">Travel & Accommodation</a></li>
+                            <li><a href="finance.html">Finance & Insurance</a></li>
+                            <li><a href="food.html">Food & Beverage</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search articles...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="category-hero">
+            <div class="container">
+                <div class="category-hero-content">
+                    <h1>Travel & Accommodation</h1>
+                    <p>Explore destinations, find perfect stays, and discover travel tips for unforgettable journeys</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-content">
+            <div class="container">
+                <div class="content-filter">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="articles">Articles</button>
+                        <button class="filter-btn" data-filter="products">Products</button>
+                    </div>
+                    <div class="sort-dropdown">
+                        <select class="sort-select">
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="popular">Most Popular</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="content-grid">
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1635&q=80" alt="Travel Destination">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>Hidden Gems of Europe: 10 Underrated Destinations</h3>
+                            <p>Discover breathtaking European destinations that offer authentic experiences away from the crowds.</p>
+                            <div class="content-meta">
+                                <span class="content-date">August 15, 2025</span>
+                                <a href="../articles/hidden-gems-europe.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90bo1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Travel Luggage">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Product Review</span>
+                            <h3>Best Travel Luggage for Every Type of Traveler</h3>
+                            <p>Find the perfect luggage for your travel style with our comprehensive review of top-rated suitcases.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★★ 4.8/5</span>
+                                <a href="../products/travel-luggage.html" class="read-more">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Hotel Booking">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Platform Review</span>
+                            <h3>Best Hotel Booking Platforms: Features & Benefits</h3>
+                            <p>Compare top hotel booking platforms to find the best deals and amenities for your next stay.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★☆ 4.6/5</span>
+                                <a href="../products/hotel-platforms.html" class="read-more">Compare Platforms</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Solo Travel">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>Solo Travel Safety: Essential Tips for Independent Explorers</h3>
+                            <p>Stay safe and confident while traveling alone with these practical safety tips and destination recommendations.</p>
+                            <div class="content-meta">
+                                <span class="content-date">July 22, 2025</span>
+                                <a href="../articles/solo-travel-safety.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80" alt="Travel Accessories">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Product Guide</span>
+                            <h3>Essential Travel Accessories for Comfortable Journeys</h3>
+                            <p>Pack smart with these must-have travel accessories that enhance comfort and convenience on any trip.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★★ 4.7/5</span>
+                                <a href="../products/travel-accessories.html" class="read-more">Shop Accessories</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80" alt="Beach Vacation">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>Planning the Perfect Beach Vacation: Complete Guide</h3>
+                            <p>From choosing the right destination to packing essentials, master the art of planning unforgettable beach getaways.</p>
+                            <div class="content-meta">
+                                <span class="content-date">June 10, 2025</span>
+                                <a href="../articles/beach-vacation-guide.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <button class="pagination-btn prev-btn" disabled>Previous</button>
+                    <div class="pagination-numbers">
+                        <button class="pagination-number active">1</button>
+                        <button class="pagination-number">2</button>
+                        <button class="pagination-number">3</button>
+                        <span class="pagination-dots">...</span>
+                        <button class="pagination-number">9</button>
+                    </div>
+                    <button class="pagination-btn next-btn">Next</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LifeStyleHub</h3>
+                    <p>Your guide to modern living with curated content across fashion, beauty, home, travel, finance, and food.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="fashion.html">Fashion & Accessories</a></li>
+                        <li><a href="beauty.html">Health & Beauty</a></li>
+                        <li><a href="home.html">Home & Garden</a></li>
+                        <li><a href="travel.html">Travel & Accommodation</a></li>
+                        <li><a href="finance.html">Finance & Insurance</a></li>
+                        <li><a href="food.html">Food & Beverage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> hello@lifestylehub.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LifeStyleHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance & Insurance - LifeStyleHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>LifeStyleHub</h1>
+                    <span class="tagline">Modern Living Made Simple</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fashion.html">Fashion & Accessories</a></li>
+                            <li><a href="beauty.html">Health & Beauty</a></li>
+                            <li><a href="home.html">Home & Garden</a></li>
+                            <li><a href="travel.html">Travel & Accommodation</a></li>
+                            <li><a href="finance.html">Finance & Insurance</a></li>
+                            <li><a href="food.html">Food & Beverage</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search articles...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="category-hero">
+            <div class="container">
+                <div class="category-hero-content">
+                    <h1>Finance & Insurance</h1>
+                    <p>Smart financial planning, investment strategies, and insurance guidance for your future security</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-content">
+            <div class="container">
+                <div class="content-filter">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="articles">Articles</button>
+                        <button class="filter-btn" data-filter="products">Products</button>
+                    </div>
+                    <div class="sort-dropdown">
+                        <select class="sort-select">
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="popular">Most Popular</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="content-grid">
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Investment Planning">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>Investment Basics: Building Your First Portfolio</h3>
+                            <p>Learn the fundamentals of investing and how to create a diversified portfolio that aligns with your financial goals.</p>
+                            <div class="content-meta">
+                                <span class="content-date">May 12, 2025</span>
+                                <a href="../articles/investment-basics.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Banking Apps">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">App Review</span>
+                            <h3>Best Banking Apps for Digital Money Management</h3>
+                            <p>Discover the top-rated banking apps that make managing your finances simple, secure, and convenient.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★★ 4.8/5</span>
+                                <a href="../products/banking-apps.html" class="read-more">View Apps</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Insurance Comparison">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Service Comparison</span>
+                            <h3>Health Insurance Plans: Compare Coverage & Costs</h3>
+                            <p>Navigate health insurance options with our comprehensive comparison of plans, benefits, and pricing.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★☆ 4.5/5</span>
+                                <a href="../products/health-insurance.html" class="read-more">Compare Plans</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Budgeting">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>The 50/30/20 Budget Rule: Simplify Your Finances</h3>
+                            <p>Master this popular budgeting method to allocate your income effectively between needs, wants, and savings.</p>
+                            <div class="content-meta">
+                                <span class="content-date">April 8, 2025</span>
+                                <a href="../articles/budget-rule.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="content-card product" data-type="products">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Investment Platforms">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Platform Review</span>
+                            <h3>Top Investment Platforms for Beginners</h3>
+                            <p>Start your investment journey with these user-friendly platforms offering low fees and educational resources.</p>
+                            <div class="content-meta">
+                                <span class="content-rating">★★★★★ 4.7/5</span>
+                                <a href="../products/investment-platforms.html" class="read-more">Explore Platforms</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <article class="content-card article" data-type="articles">
+                        <div class="content-image">
+                            <img src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Emergency Fund">
+                        </div>
+                        <div class="content-info">
+                            <span class="content-category">Article</span>
+                            <h3>Building an Emergency Fund: Your Financial Safety Net</h3>
+                            <p>Learn how to build and maintain an emergency fund that provides financial security during unexpected situations.</p>
+                            <div class="content-meta">
+                                <span class="content-date">March 20, 2025</span>
+                                <a href="../articles/emergency-fund.html" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <button class="pagination-btn prev-btn" disabled>Previous</button>
+                    <div class="pagination-numbers">
+                        <button class="pagination-number active">1</button>
+                        <button class="pagination-number">2</button>
+                        <button class="pagination-number">3</button>
+                        <span class="pagination-dots">...</span>
+                        <button class="pagination-number">5</button>
+                    </div>
+                    <button class="pagination-btn next-btn">Next</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LifeStyleHub</h3>
+                    <p>Your guide to modern living with curated content across fashion, beauty, home, travel, finance, and food.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="fashion.html">Fashion & Accessories</a></li>
+                        <li><a href="beauty.html">Health & Beauty</a></li>
+                        <li><a href="home.html">Home & Garden</a></li>
+                        <li><a href="travel.html">Travel & Accommodation</a></li>
+                        <li><a href="finance.html">Finance & Insurance</a></li>
+                        <li><a href="food.html">Food & Beverage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> hello@lifestylehub.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LifeStyleHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
