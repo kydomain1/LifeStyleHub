@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Miss Our Special Promotions and Discounts - LATAM Airlines</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Article-specific styles */
+        .promotions-hero {
+            height: 80vh;
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ffeb3b 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+        
+        .promotions-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://cdn.pixabay.com/photo/2017/06/05/11/01/airport-2373727_1280.jpg') center/cover;
+            opacity: 0.2;
+            z-index: 1;
+        }
+        
+        .promotions-hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            padding: 2rem;
+        }
+        
+        .promotions-hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .promotions-hero .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            border: 2px solid rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .cta-button:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .article-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .article-content {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .main-content {
+            background: white;
+            padding: 2rem 0;
+        }
+        
+        .sidebar {
+            background: #f8f9fa;
+            padding: 2rem;
+            color: #333;
+            border-left: 3px solid #e9ecef;
+        }
+        
+        .promotion-card {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid #e9ecef;
+        }
+        
+        .promotion-card h3 {
+            color: #ff6b35;
+            margin-bottom: 0.5rem;
+        }
+        
+        .content-section {
+            margin-bottom: 3rem;
+        }
+        
+        .content-section h2 {
+            color: #2d3748;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #ff6b35;
+            padding-left: 1rem;
+        }
+        
+        .content-image {
+            width: 100%;
+            margin: 2rem 0;
+        }
+        
+        .image-caption {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        
+        .discount-table {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 1px solid #e9ecef;
+        }
+        
+        .discount-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .discount-table th,
+        .discount-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .discount-table th {
+            background: #f7fafc;
+            font-weight: 600;
+            color: #2d3748;
+        }
+        
+        .discount-percentage {
+            color: #ff6b35;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .promotions-hero {
+                height: 60vh;
+            }
+            
+            .promotions-hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .article-content {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .article-container {
+                padding: 1rem;
+            }
+            
+            .main-content {
+                padding: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="../index.html">LifeStyleHub</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/fashion.html" class="nav-link">Fashion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/beauty.html" class="nav-link">Beauty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/food.html" class="nav-link">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/travel.html" class="nav-link">Travel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/finance.html" class="nav-link">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="promotions-hero">
+        <div class="promotions-hero-content">
+            <h1>Don't Miss Our Special Promotions and Discounts</h1>
+            <p class="subtitle">Discover exclusive deals and save big on your next adventure with LATAM Airlines</p>
+            <a href="#promotions" class="cta-button">
+                <i class="fas fa-plane"></i> Explore Deals
+            </a>
+        </div>
+    </section>
+
+    <div class="article-container">
+        <div class="article-content">
+            <main class="main-content">
+                <div class="content-section" id="promotions">
+                    <h2>🎯 Exclusive Travel Deals</h2>
+                    <p>Experience the world with <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> exceptional promotional offers that make your dream destinations more accessible than ever. Our carefully curated selection of deals ensures that every traveler can find the perfect opportunity to explore South America and beyond.</p>
+                    
+                    <img src="https://cdn.pixabay.com/photo/2016/04/15/04/02/airport-1330989_1280.jpg" alt="Airport terminal with promotional displays" class="content-image">
+                    <div class="image-caption">LATAM Airlines promotional displays at major international airports</div>
+                    
+                    <p>Whether you're planning a romantic getaway to Buenos Aires, a business trip to São Paulo, or an adventure through the Amazon rainforest, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> has specially designed packages to suit every traveler's needs and budget.</p>
+                    
+                    <p><strong>Limited Time Offer:</strong> Book with <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> before December 31st and save up to 40% on select destinations across Latin America!</p>
+                </div>
+
+                <div class="content-section">
+                    <h2>💰 Seasonal Discount Programs</h2>
+                    <p>Throughout the year, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> offers seasonal promotions that align with the best travel times for each destination. From summer beach destinations to winter ski resorts, our promotional calendar ensures you get the best value during optimal travel seasons.</p>
+                    
+                    <img src="https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg" alt="South American landscape during peak season" class="content-image">
+                    <div class="image-caption">Experience South America's stunning landscapes during promotional seasons with LATAM</div>
+                    
+                    <div class="discount-table">
+                        <h3>Current Promotional Rates</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Destination</th>
+                                    <th>Regular Price</th>
+                                    <th>Promotional Price</th>
+                                    <th>Savings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Buenos Aires</td>
+                                    <td>$899</td>
+                                    <td>$629</td>
+                                    <td><span class="discount-percentage">30% OFF</span></td>
+                                </tr>
+                                <tr>
+                                    <td>São Paulo</td>
+                                    <td>$1,199</td>
+                                    <td>$839</td>
+                                    <td><span class="discount-percentage">30% OFF</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Lima</td>
+                                    <td>$749</td>
+                                    <td>$524</td>
+                                    <td><span class="discount-percentage">30% OFF</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Santiago</td>
+                                    <td>$1,099</td>
+                                    <td>$659</td>
+                                    <td><span class="discount-percentage">40% OFF</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <p>Early bird discounts with <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> allow travelers to secure the best rates by booking 60-90 days in advance. Additionally, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> loyalty program members receive exclusive access to flash sales and member-only promotions throughout the year.</p>
+                </div>
+
+                <div class="content-section">
+                    <h2>✈️ Premium Service Offers</h2>
+                    <p>Experience luxury travel with <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> premium cabin promotions. Our Business Class and Premium Economy upgrade offers provide exceptional value for travelers seeking enhanced comfort and service during their journey.</p>
+                    
+                    <img src="https://cdn.pixabay.com/photo/2016/12/13/17/33/airplane-1905467_1280.jpg" alt="Premium airline cabin interior" class="content-image">
+                    <div class="image-caption">LATAM Business Class offers lie-flat seats and premium amenities</div>
+                    
+                    <p>Current premium offers with <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> include complimentary upgrades for frequent flyers, discounted premium cabin fares for long-haul flights, and special packages that combine flights with luxury hotel accommodations at partner properties.</p>
+                    
+                    <p><strong>Premium Upgrade Special:</strong> <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> is offering 50% off Business Class upgrades for bookings made this month!</p>
+                </div>
+
+                <div class="content-section">
+                    <h2>🌟 Group and Family Packages</h2>
+                    <p>Planning a group trip or family vacation? <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> offers special group rates and family packages that provide significant savings for parties of 6 or more travelers. These packages include additional baggage allowances, flexible booking options, and dedicated customer service support.</p>
+                    
+                    <img src="https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2590524_1280.jpg" alt="Family travelers at airport" class="content-image">
+                    <div class="image-caption">LATAM's family-friendly services make group travel convenient and affordable</div>
+                    
+                    <p>Group coordinators working with <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> receive personalized assistance with itinerary planning, special meal accommodations, and coordinated seat assignments to ensure your group travels together comfortably. Educational groups and corporate travelers benefit from additional discounts when booking through <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> specialized group booking platform.</p>
+                </div>
+
+                <div class="content-section">
+                    <h2>📱 Digital-Only Exclusive Deals</h2>
+                    <p>Stay connected with <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> mobile app and website to access exclusive digital promotions not available through traditional booking channels. These flash sales, app-only discounts, and social media promotions offer additional savings for tech-savvy travelers.</p>
+                    
+                    <p>Download the <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> mobile application to receive push notifications about limited-time offers, access mobile-exclusive promo codes, and enjoy streamlined booking with saved payment methods and traveler profiles.</p>
+                    
+                    <p><strong>App Users Save More:</strong> First-time <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=a0c8bJ_aL40th4c2q7czYjCS6TWvGKKDcj2IkIissWD6reQGUj7X46562IXIz94uT0ds3d1d0vFJ4web0few_c&new=http%3A%2F%2Fwww.latamairlines.com%2Fus%2Fen" target="_blank">latamairli</a> app users receive an additional $50 discount on international flights!</p>
+                </div>
+            </main>
+
+            <aside class="sidebar">
+                <h3>🔥 Hot Deals</h3>
+                
+                <div class="promotion-card">
+                    <h3>Weekend Flash Sale</h3>
+                    <p>Up to 35% off select routes. Valid for bookings made Friday-Sunday only.</p>
+                    <small>Expires: This Sunday</small>
+                </div>
+                
+                <div class="promotion-card">
+                    <h3>Student Discount</h3>
+                    <p>Students save an additional 10% with valid student ID. Combine with other offers!</p>
+                    <small>Year-round offer</small>
+                </div>
+                
+                <div class="promotion-card">
+                    <h3>Senior Travel</h3>
+                    <p>Travelers 60+ enjoy exclusive discounts and priority boarding.</p>
+                    <small>Age verification required</small>
+                </div>
+                
+                <div class="promotion-card">
+                    <h3>Honeymoon Package</h3>
+                    <p>Newlyweds receive complimentary upgrades and champagne service.</p>
+                    <small>Marriage certificate required</small>
+                </div>
+                
+                <div class="promotion-card">
+                    <h3>Corporate Accounts</h3>
+                    <p>Businesses save up to 20% with volume discounts and flexible policies.</p>
+                    <small>Contact sales team</small>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>LifeStyleHub</h3>
+                <p>Your ultimate destination for lifestyle inspiration, trends, and tips across fashion, beauty, home, food, travel, and finance.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="../pages/fashion.html">Fashion</a></li>
+                    <li><a href="../pages/beauty.html">Beauty</a></li>
+                    <li><a href="../pages/home.html">Home</a></li>
+                    <li><a href="../pages/food.html">Food</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>More</h3>
+                <ul>
+                    <li><a href="../pages/travel.html">Travel</a></li>
+                    <li><a href="../pages/finance.html">Finance</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LifeStyleHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
